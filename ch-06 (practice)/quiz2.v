@@ -10,7 +10,7 @@ mux21_if U0(a, b, sel, out);
 initial begin
 	a=2'b10; b=2'b01;
 	#30 sel = 1;
-	#60 sel = 0;
+	#30 sel = 0;
 end
 
 endmodule
